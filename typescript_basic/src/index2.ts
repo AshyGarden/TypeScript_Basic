@@ -19,8 +19,8 @@ console.log(18n/12n); //1n
 console.log(18n/12n); //6n
 
 //被演算子がnumberタイプならnumberタイプ、bigintタイプならbigintタイプで値が返されます.
-const res1 = 5-1.86; // number타입
-const res2 = 2n ** 5n; //bigint타입
+const res1 = 5-1.86; // numberタイプ
+const res2 = 2n ** 5n; //bigintタイプ
 
 //算術演算子の右辺はany、nymber、bigint、enumタイプのいずれかでなければなりません！（でない場合はコンパイルエラー）
 const err:string = "123";
